@@ -28,32 +28,32 @@ body {
 
 /* CABEÇALHO */
 
-.cabecalho__container {
+.cabecalho_container {
     background-color: var(--branco);
     height: 80px;
     width: 100%;
     padding: 0 25px;
 }
 
-.logo__item {
+.logo_item {
     padding: 15px 0px;
     cursor: pointer;
 }
 
-.pesquisar__input {
+.pesquisar_input {
     padding: 8px;
     border: 2px solid var(--cinza-claro);
     border-radius: 32px 0px 0px 32px;
     font-size: 16px;
 }
 
-.pesquisar__input-teclado{
+.pesquisar_input-teclado{
     position: absolute;
     right: 16%;
     top: 30%;
 }
 
-.pesquisar__btn {
+.pesquisar_btn {
     background-color: var(--cinza-claro);
     border: 0px;
     border-radius: 0px 32px 32px 0px;
@@ -63,40 +63,40 @@ body {
     cursor: pointer;
 }
 
-.cabecalho__audio {
+.cabecalho_audio {
     border: 0px;
     background-color: var(--branco);
 }
 
-.cabecalho__videos {
+.cabecalho_videos {
     background-image: url(../img/topbar/video_call.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
 }
 
-.cabecalho__apps {
+.cabecalho_apps {
     background-image: url(../img/topbar/apps.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
 }
 
-.cabecalho__notificacoes {
+.cabecalho_notificacoes {
     background-image: url(../img/topbar/notifications.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
 }
 
-.cabecalho__avatar {
+.cabecalho_avatar {
     background-image: url(../img/topbar/Avatar.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 33px;
 }
 
-.cabecalho__switch {
+.cabecalho_switch {
     position: relative;
     display: inline-block;
     padding: 13px 30px 13px 13px;
@@ -104,13 +104,13 @@ body {
     height: 34px;
   }
   
-  .cabecalho__switch-input{
+  .cabecalho_switch-input{
     opacity: 0;
     width: 0;
     height: 0;
   }
   
-  .cabecalho__switch-slider {
+  .cabecalho_switch-slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -123,7 +123,7 @@ body {
     border-radius: 34px;
   }
   
-  .cabecalho__switch-slider:before {
+  .cabecalho_switch-slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -136,15 +136,15 @@ body {
     border-radius: 50%;
   }
   
-  .cabecalho__switch-input:checked + .cabecalho__switch-slider {
+  .cabecalho_switch-input:checked + .cabecalho_switch-slider {
     background-color: var(--azul-destaque-light);
   }
   
-  .cabecalho__switch-input:focus + .cabecalho__switch-slider {
+  .cabecalho_switch-input:focus + .cabecalho_switch-slider {
     box-shadow: 0 0 1px var(--cinza-claro);
   }
   
-  .cabecalho__switch-input:checked + .cabecalho__switch-slider:before {
+  .cabecalho_switch-input:checked + .cabecalho_switch-slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
@@ -153,7 +153,7 @@ body {
 
 /* SECAO SUPERIOR */
 
-.superior__secao__container {
+.superior_secao_container {
     height: 63px;
     color: var(--branco);
     font-size: 16px;
@@ -167,11 +167,11 @@ body {
     transform: translateX(0); */
 }
 
-.superior__secao__container-wrapper{
+.superior_secao_container-wrapper{
     position: relative;
 }
 
-.superior__item {
+.superior_item {
     color: var(--cinza-escuro);
     font-size: 16px;
     background-color: var(--cinza-claro);
@@ -181,13 +181,13 @@ body {
     width: 200px;
 }
 
-.superior__item:hover {
+.superior_item:hover {
     color: var(--branco);
     background-color: var(--azul-destaque-light);
     transition: .5s;
 }
 
-.superior__slider{
+.superior_slider{
     position: absolute;
     right: 0%;
     width: 4%;
@@ -197,7 +197,7 @@ body {
 
 /* SEÇÃO VÍDEOS */
 
-.videos__container {
+.videos_container {
     color: black;
     padding: 153px 20px 10px 20px;
 }
@@ -237,7 +237,7 @@ iframe{
 
     /* ESTILOS DA SECAO SUPERIOR */
 
-    .superior__secao__container {
+    .superior_secao_container {
         border-top: var(--azul-medio) 1px solid;
         border-bottom: var(--azul-medio) 1px solid;
         width: auto;
@@ -246,7 +246,7 @@ iframe{
 
     /*ESTILOS SEÇÃO VÍDEOS */
 
-    .videos__container {
+    .videos_container {
         padding-left: 90px;
         padding-right: 17px;
     }
@@ -257,13 +257,13 @@ iframe{
 
     /* SEÇÃO SUPERIOR */
 
-    .superior__secao__container {
+    .superior_secao_container {
         left: 247px;
     }
 
     /* ESTILOS VIDEOS */
 
-    .videos__container {
+    .videos_container {
         padding-right: 10px;
         padding-left: 248px;
     }

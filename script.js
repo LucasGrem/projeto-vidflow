@@ -70,3 +70,14 @@ function filtrarPorCategoria(filtro){
         }
     }
 }
+
+//funcionalidade da seta de categoria
+const botaoSeta = document.querySelector(".superior_slider");
+const containerCategorias = document.querySelector(".superior_secao_container");
+
+botaoSeta.addEventListener("click", () => {
+    containerCategorias.scrollBy({
+        left: 200, // Quantidade de pixels que a barra vai rolar para a direita
+        behavior: "smooth" // Faz a rolagem
+    });
+});

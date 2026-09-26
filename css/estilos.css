@@ -232,7 +232,7 @@ main {
     display: flex;
     align-items: center;
     overflow-x: auto;
-    padding: 0 20px;
+    padding: 0 50px 0 20px;
     border-top: 1px solid var(--azul-medio);
     border-bottom: 1px solid var(--azul-medio);
 }
